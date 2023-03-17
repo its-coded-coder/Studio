@@ -1,17 +1,17 @@
-# Kolibri Studio
+# EDCET Studio
 
 [![Python tests](https://github.com/learningequality/studio/actions/workflows/pythontest.yml/badge.svg)](https://github.com/learningequality/studio/actions/workflows/pythontest.yml) [![Javascript Tests](https://github.com/learningequality/studio/actions/workflows/frontendtest.yml/badge.svg)](https://github.com/learningequality/studio/actions/workflows/frontendtest.yml) [![codecov](http://codecov.io/github/learningequality/studio/coverage.svg?branch=develop)](http://codecov.io/github/learningequality/studio?branch=develop])
 
-[Kolibri Studio](https://studio.learningequality.org) is a web application designed to deliver educational materials to [Kolibri](http://learningequality.org/kolibri/). It supports:
+[EDCET Studio](https://studio.learningequality.org) is a web application designed to deliver educational materials to [EDCET](http://learningequality.org/EDCET/). It supports:
 
-- Organizing and publishing content channels in the format suitable for import from Kolibri
+- Organizing and publishing content channels in the format suitable for import from EDCET
 - Curating content and remixing of existing channels into custom channels aligned to various educational standards, country curricula, and special needs
 - Creating learning pathways and assessments
 - Uploading new content through the web interface or programatically using [ricecooker-powered](https://github.com/learningequality/ricecooker) content import scripts
 
-Kolibri Studio uses the [Django framework](https://www.djangoproject.com/) for the backend and [Vue.js](https://vuejs.org/) for the frontend.
+EDCET Studio uses the [Django framework](https://www.djangoproject.com/) for the backend and [Vue.js](https://vuejs.org/) for the frontend.
 
-If you are looking for help setting up custom content channels, uploading and organizing resources using Kolibri Studio, please refer to the [User Guide](https://kolibri-studio.readthedocs.io/en/latest/).
+If you are looking for help setting up custom content channels, uploading and organizing resources using EDCET Studio, please refer to the [User Guide](https://EDCET-studio.readthedocs.io/en/latest/).
 
 ## Local development instructions
 The following guide utilizes docker and docker-compose to run select services required for Studio to function. If you would rather install these services on your host, please follow the [host-setup guide](docs/host_services_setup.md).
@@ -19,7 +19,7 @@ The following guide utilizes docker and docker-compose to run select services re
 ### Prerequisites
 Please install these prerequisites, or alternatives for setting up your local development environment:
 - [volta](https://docs.volta.sh/guide/getting-started) or a different node.js manager
-- [pyenv](https://kolibri-dev.readthedocs.io/en/develop/howtos/installing_pyenv.html) and [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv#installation)
+- [pyenv](https://EDCET-dev.readthedocs.io/en/develop/howtos/installing_pyenv.html) and [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv#installation)
 - [docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/)
 
 
